@@ -32,7 +32,9 @@ set(COMPANY_NAME "snyderphones")
 
 # Change me! Used for the MacOS bundle identifier (and signing)
 set(BUNDLE_ID "com.snyderphonics.electrobass")
-
+# Change me! Set the plugin formats you want built
+# Valid choices: AAX Unity VST VST3 AU AUv3 Standalone
+set(FORMATS Standalone AU VST3 AUv3)
 # For simplicity, the name of the CMake project is also the name of the target
 project(${PROJECT_NAME} VERSION ${CURRENT_VERSION})
 
